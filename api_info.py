@@ -18,7 +18,7 @@ threatfox_data = {
 #
 # Malcore.io
 #
-G_MALCORE_API_KEY = '6948a37c9cd836c2460c0ba089e0bbf68cc8178c'
+G_MALCORE_API_KEY = '' # fill me
 malcore_headers = { 'apiKey': f'{G_MALCORE_API_KEY}' }
 malcore_ip_data = {
     'feed_type' : 'ip',

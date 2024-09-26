@@ -42,13 +42,12 @@ if __name__ == '__main__':
             fp.write('\n'.join(sha1) + '\n')
     
     if args.domains:
-        l = get_threatfox_domains() + get_digitalsite_domains()
+        l = get_threatfox_domains() + get_digitalsite_domains() + get_threatview_domains()
 
         domains = set(l)
 
         with open(filename, 'w+') as fp:
             fp.write('\n'.join(domains) + '\n')
-            fp.write(get_threatview_domains())
     
     if args.ips:
         l = get_threatfox_ips() + get_digitalsite_ips() + get_greensnow_ips() + get_malcore_ips()

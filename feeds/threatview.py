@@ -19,5 +19,7 @@ def get_threatview_sha1() -> list[str]:
     pattern = r'\b[a-fA-F0-9]{40}\b'
     return re.findall(pattern, data)
 
-def get_threatview_domains() -> str:
-    return get_threatview_data("domains")
+def get_threatview_domains() -> list[str]:
+    return get_threatview_data("domains").split('\n')[:-1]
+
+
