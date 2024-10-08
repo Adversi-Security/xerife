@@ -3,13 +3,13 @@
 
 `xerife.py` is a tool that collects Indicators of Compromise (IOCs) from various sources, such as:
 
-- MalwareBazaar
-- Malcore
-- ThreatFox
-- DigitalSite
-- GreenSnow
-- ThreatView
-- AlienVault
+- [MalwareBazaar](https://bazaar.abuse.ch/)
+- [Malcore](https://malcore.io/)
+- [ThreatFox](https://threatfox.abuse.ch/)
+- [DigitalSite](https://osint.digitalside.it/)
+- [GreenSnow](https://greensnow.co/)
+- [ThreatView](https://threatview.io/)
+- [AlienVault](https://otx.alienvault.com/)
 
 ## Features
 
