@@ -20,6 +20,15 @@
   - Malicious URLs
 - Outputs the IOCs into a specified file for further analysis.
 
+## Installation
+
+Ensure that Python 3.x is installed on your machine. 
+Install the required dependencies by running the following command, which uses the requirements.txt file included in the repository:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
 
 ```bash
@@ -53,10 +62,6 @@ optional arguments:
     ```bash
     python xerife.py --hashes -o hashes.txt
     ```
-
-## Requirements
-
-Ensure that Python 3.x is installed on your machine. Additional dependencies might be required based on the data sources being used.
 
 ## Contributing
 
