@@ -23,6 +23,7 @@
 ## Installation
 
 Ensure that Python 3.x is installed on your machine. 
+
 Install the required dependencies by running the following command, which uses the requirements.txt file included in the repository:
 
 ```bash
